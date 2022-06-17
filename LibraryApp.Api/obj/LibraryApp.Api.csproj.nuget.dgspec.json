@@ -1,0 +1,299 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\recep\\source\\repos\\LibraryApp\\LibraryApp.Api\\LibraryApp.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\recep\\source\\repos\\LibraryApp\\LibraryApp.Api\\LibraryApp.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\recep\\source\\repos\\LibraryApp\\LibraryApp.Api\\LibraryApp.Api.csproj",
+        "projectName": "LibraryApp.Api",
+        "projectPath": "C:\\Users\\recep\\source\\repos\\LibraryApp\\LibraryApp.Api\\LibraryApp.Api.csproj",
+        "packagesPath": "C:\\Users\\recep\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\recep\\source\\repos\\LibraryApp\\LibraryApp.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\recep\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\recep\\source\\repos\\LibraryApp\\LibraryApp.BL\\LibraryApp.BL.csproj": {
+                "projectPath": "C:\\Users\\recep\\source\\repos\\LibraryApp\\LibraryApp.BL\\LibraryApp.BL.csproj"
+              },
+              "C:\\Users\\recep\\source\\repos\\LibraryApp\\LibraryApp.DAL\\LibraryApp.DAL.csproj": {
+                "projectPath": "C:\\Users\\recep\\source\\repos\\LibraryApp\\LibraryApp.DAL\\LibraryApp.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.18.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\recep\\source\\repos\\LibraryApp\\LibraryApp.BL\\LibraryApp.BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\recep\\source\\repos\\LibraryApp\\LibraryApp.BL\\LibraryApp.BL.csproj",
+        "projectName": "LibraryApp.BL",
+        "projectPath": "C:\\Users\\recep\\source\\repos\\LibraryApp\\LibraryApp.BL\\LibraryApp.BL.csproj",
+        "packagesPath": "C:\\Users\\recep\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\recep\\source\\repos\\LibraryApp\\LibraryApp.BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\recep\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\recep\\source\\repos\\LibraryApp\\LibraryApp.DAL\\LibraryApp.DAL.csproj": {
+                "projectPath": "C:\\Users\\recep\\source\\repos\\LibraryApp\\LibraryApp.DAL\\LibraryApp.DAL.csproj"
+              },
+              "C:\\Users\\recep\\source\\repos\\LibraryApp\\LİbraryApp.EL\\LİbraryApp.EL.csproj": {
+                "projectPath": "C:\\Users\\recep\\source\\repos\\LibraryApp\\LİbraryApp.EL\\LİbraryApp.EL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\recep\\source\\repos\\LibraryApp\\LibraryApp.DAL\\LibraryApp.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\recep\\source\\repos\\LibraryApp\\LibraryApp.DAL\\LibraryApp.DAL.csproj",
+        "projectName": "LibraryApp.DAL",
+        "projectPath": "C:\\Users\\recep\\source\\repos\\LibraryApp\\LibraryApp.DAL\\LibraryApp.DAL.csproj",
+        "packagesPath": "C:\\Users\\recep\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\recep\\source\\repos\\LibraryApp\\LibraryApp.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\recep\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\recep\\source\\repos\\LibraryApp\\LİbraryApp.EL\\LİbraryApp.EL.csproj": {
+                "projectPath": "C:\\Users\\recep\\source\\repos\\LibraryApp\\LİbraryApp.EL\\LİbraryApp.EL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\recep\\source\\repos\\LibraryApp\\LİbraryApp.EL\\LİbraryApp.EL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\recep\\source\\repos\\LibraryApp\\LİbraryApp.EL\\LİbraryApp.EL.csproj",
+        "projectName": "LİbraryApp.EL",
+        "projectPath": "C:\\Users\\recep\\source\\repos\\LibraryApp\\LİbraryApp.EL\\LİbraryApp.EL.csproj",
+        "packagesPath": "C:\\Users\\recep\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\recep\\source\\repos\\LibraryApp\\LİbraryApp.EL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\recep\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
